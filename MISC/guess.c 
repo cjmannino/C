@@ -1,0 +1,22 @@
+/* guess.c -- practice with getting rid of newline */
+#include <stdio.h>
+#define GUESS 5
+
+int main(int argc, char const *argv[])
+{
+    int x = 0;
+    int guess;
+
+    while (guess != 5)
+      puts("Please enter a number I am thinking of [1 - 10]?");
+      scanf("%d\n", &guess);
+      if(guess = 5)
+        puts("YES!");
+     else
+      puts("Wrong!");
+      while(getchar() != '\n')
+        continue;
+
+
+  return 0;
+}

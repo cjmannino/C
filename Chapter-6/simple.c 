@@ -1,0 +1,13 @@
+/* simple.c */
+#include <stdio.h>
+
+int main(int argc, char const *argv[]) {
+   int a,b;
+   int testa = 10;
+   int testb = 15;
+
+   a = testa < 100;
+   printf("%dA is: ", a);
+
+  return 0;
+}
