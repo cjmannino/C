@@ -86,7 +86,7 @@ void prinMenu(void)
 
 }
 
-void sortASCII(char ustrin[][LENGTH], int n)
+void sortASCII(char ustrin[][LENGTH], int n)//change to use pointer leaving orignal array alone
 {
   puts("ACSII Sort");
   puts("");
