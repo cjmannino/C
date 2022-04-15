@@ -19,9 +19,6 @@ int main(int argc, char const *argv[])
   getUserStrin(ustrin, ROWS);
   prinMenu();
 
-
-
-
 while((ch = getchar()) != 'q')
 {
   switch(ch)
